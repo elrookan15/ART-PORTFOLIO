@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Authenticity</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        body {
+            font-family: "Garamond", "Georgia", serif;
+            background: white;
+            color: #1a1a1a;
+            margin: 0;
+            padding: 3cm 2.5cm;
+            line-height: 1.6;
+        }
+        .certificate {
+            max-width: 21cm;
+            margin: 0 auto;
+            border: 3px double #121212;
+            padding: 2.5cm;
+            position: relative;
+        }
+        .watermark {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            font-size: 6rem;
+            opacity: 0.03;
+            font-weight: bold;
+            pointer-events: none;
+            z-index: 0;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 2.5cm;
+            border-bottom: 2px solid #121212;
+            padding-bottom: 1cm;
+        }
+        .title {
+            font-size: 2.5rem;
+            font-weight: normal;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            margin-bottom: 0.5cm;
+        }
+        .subtitle {
+            font-size: 1rem;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #666;
+        }
+        .artwork-info {
+            margin: 1.5cm 0;
+            padding: 1cm;
+            background-color: #f9f9f9;
+            border-left: 4px solid #FF4500;
+        }
+        .artwork-info h2 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5cm;
+            font-weight: normal;
+        }
+        .details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5cm;
+            margin-top: 0.75cm;
+        }
+        .detail-row {
+            margin-bottom: 0.3cm;
+        }
+        .detail-label {
+            font-weight: bold;
+            color: #333;
+        }
+        .statement {
+            margin: 1.5cm 0;
+            font-style: italic;
+            line-height: 1.8;
+            color: #333;
+            padding: 1cm 0;
+            border-top: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+        }
+        .authentication {
+            margin-top: 2cm;
+        }
+        .signature-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2cm;
+            margin-top: 1.5cm;
+        }
+        .signature-line {
+            border-bottom: 2px solid #121212;
+            margin-bottom: 0.3cm;
+            height: 3cm;
+        }
+        .signature-label {
+            font-size: 0.85rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .footer {
+            margin-top: 2cm;
+            padding-top: 1cm;
+            border-top: 1px solid #ddd;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #999;
+        }
+        .certificate-number {
+            position: absolute;
+            top: 1cm;
+            right: 1cm;
+            font-size: 0.75rem;
+            color: #999;
+            letter-spacing: 0.05em;
+        }
+        @media print {
+            body {
+                background: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <div class="watermark">AUTHENTIC</div>
+        <div class="certificate-number">COA-[YYYY]-[###]</div>
+        
+        <div class="content">
+            <div class="header">
+                <h1 class="title">Certificate of Authenticity</h1>
+                <p class="subtitle">Original Artwork</p>
+            </div>
+
+            <div class="artwork-info">
+                <h2>[ARTWORK TITLE]</h2>
+                
+                <div class="details">
+                    <div>
+                        <div class="detail-row">
+                            <span class="detail-label">Artist:</span> [Your Name]
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Medium:</span> Acrylic on Canvas
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Dimensions:</span> [WIDTH] x [HEIGHT] inches
+                        </div>
+                    </div>
+                    <div>
+                        <div class="detail-row">
+                            <span class="detail-label">Year:</span> [YEAR]
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Series:</span> [SERIES NAME]
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Edition:</span> Original (1/1)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="statement">
+                <p><strong>Artist Statement:</strong></p>
+                <p>"I am not a product of an art school; I am a product of the process. My work is born from a lack of formal training, which I view not as a limitation, but as a freedom. Every layer of paint, every scraped texture, and every bold contrast is a chapter in a narrative that begins with my hand but is completed by the viewer's eye."</p>
+            </div>
+
+            <div class="authentication">
+                <p><strong>This certifies that the above artwork is an original work created by [Your Name].</strong></p>
+                
+                <p style="margin-top: 1cm;">The artwork has been signed by the artist on the reverse and is a unique, one-of-a-kind piece. This certificate guarantees its authenticity and provenance.</p>
+
+                <div class="signature-section">
+                    <div>
+                        <div class="signature-line"></div>
+                        <p class="signature-label">Artist Signature</p>
+                    </div>
+                    <div>
+                        <div class="signature-line" style="text-align: center; padding-top: 2cm;">
+                            <span style="font-size: 0.9rem; color: #666;">[DATE]</span>
+                        </div>
+                        <p class="signature-label">Date of Issuance</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <p><strong>[YOUR NAME]</strong></p>
+                <p>Portfolio: https://elrookan15.github.io/ART-PORTFOLIO/</p>
+                <p>Instagram: @yourhandle | Email: your-email@domain.com</p>
+                <p style="margin-top: 1cm; font-size: 0.75rem;">
+                    This certificate should be retained with the artwork. For verification inquiries, contact the artist directly.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Print button functionality (optional)
+        function printCertificate() {
+            window.print();
+        }
+    </script>
+</body>
+</html>
