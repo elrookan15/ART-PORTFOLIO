@@ -1,0 +1,305 @@
+/* ============================================
+   LIGHTBOX MODAL STYLES
+   Deep Zoom & Immersive Viewing Experience
+   ============================================ */
+
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: var(--z-lightbox);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity var(--transition-smooth);
+}
+
+.lightbox.active {
+    display: flex;
+    opacity: 1;
+}
+
+/* Lightbox Controls */
+.lightbox-close,
+.lightbox-prev,
+.lightbox-next {
+    position: absolute;
+    background-color: transparent;
+    color: var(--muted-platinum);
+    font-size: 3rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+    border: 2px solid transparent;
+    z-index: 10;
+}
+
+.lightbox-close {
+    top: var(--spacing-md);
+    right: var(--spacing-md);
+    font-size: 2.5rem;
+}
+
+.lightbox-prev {
+    left: var(--spacing-md);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lightbox-next {
+    right: var(--spacing-md);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.lightbox-close:hover,
+.lightbox-prev:hover,
+.lightbox-next:hover {
+    color: var(--orange-red);
+    border-color: var(--orange-red);
+}
+
+/* Lightbox Content */
+.lightbox-content {
+    display: flex;
+    gap: var(--spacing-lg);
+    max-width: 95%;
+    max-height: 90%;
+    align-items: center;
+}
+
+.lightbox-image-container {
+    flex: 3;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 85vh;
+}
+
+#lightboxImage {
+    max-width: 100%;
+    max-height: 85vh;
+    object-fit: contain;
+    cursor: zoom-in;
+    transition: transform var(--transition-smooth);
+}
+
+#lightboxImage.zoomed {
+    cursor: zoom-out;
+    transform: scale(2);
+}
+
+/* Deep Zoom with Pan Support */
+.lightbox-image-container.pan-mode {
+    cursor: move;
+}
+
+.lightbox-image-container.pan-mode #lightboxImage {
+    cursor: move;
+}
+
+/* Lightbox Info Panel */
+.lightbox-info {
+    flex: 1;
+    max-width: 400px;
+    padding: var(--spacing-md);
+    background-color: rgba(30, 30, 30, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(224, 224, 224, 0.1);
+    max-height: 85vh;
+    overflow-y: auto;
+}
+
+#lightboxTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+    color: var(--muted-platinum);
+}
+
+#lightboxDescription {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+    color: rgba(224, 224, 224, 0.9);
+}
+
+#lightboxDetails {
+    font-size: 0.9rem;
+    color: rgba(224, 224, 224, 0.7);
+    border-top: 1px solid rgba(224, 224, 224, 0.2);
+    padding-top: var(--spacing-sm);
+}
+
+#lightboxDetails p {
+    margin: 0.5rem 0;
+}
+
+/* Zoom Indicator */
+.zoom-indicator {
+    position: absolute;
+    bottom: var(--spacing-sm);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--muted-platinum);
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity var(--transition-fast);
+}
+
+.zoom-indicator.visible {
+    opacity: 1;
+}
+
+/* Loading Spinner */
+.lightbox-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(224, 224, 224, 0.2);
+    border-top-color: var(--orange-red);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+/* Keyboard Navigation Hint */
+.keyboard-hint {
+    position: absolute;
+    bottom: var(--spacing-md);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: var(--spacing-sm);
+    font-size: 0.75rem;
+    color: rgba(224, 224, 224, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.keyboard-hint span {
+    background-color: rgba(30, 30, 30, 0.8);
+    padding: 0.25rem 0.5rem;
+    border: 1px solid rgba(224, 224, 224, 0.2);
+    border-radius: 3px;
+}
+
+/* ============================================
+   RESPONSIVE LIGHTBOX
+   ============================================ */
+
+@media (max-width: 1024px) {
+    .lightbox-content {
+        flex-direction: column;
+        max-height: 95%;
+    }
+    
+    .lightbox-info {
+        max-width: 100%;
+        max-height: 30vh;
+    }
+    
+    .lightbox-image-container {
+        max-height: 60vh;
+    }
+    
+    #lightboxImage {
+        max-height: 60vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .lightbox-prev,
+    .lightbox-next {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    
+    .lightbox-close {
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    
+    .keyboard-hint {
+        display: none;
+    }
+}
+
+/* ============================================
+   MACRO ZOOM CURSOR (Custom Magnifier)
+   ============================================ */
+
+.macro-cursor {
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    border: 3px solid var(--orange-red);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    display: none;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 69, 0, 0.5);
+}
+
+.macro-cursor.active {
+    display: block;
+}
+
+.macro-cursor canvas {
+    width: 100%;
+    height: 100%;
+}
+
+/* ============================================
+   IMAGE TEXTURE OVERLAY
+   ============================================ */
+
+.texture-detail {
+    position: absolute;
+    bottom: var(--spacing-sm);
+    right: var(--spacing-sm);
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    color: rgba(224, 224, 224, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.texture-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texture-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: var(--orange-red);
+}

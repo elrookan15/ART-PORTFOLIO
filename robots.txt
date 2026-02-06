@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Disallow access to JavaScript and CSS files (they're not useful in search results)
+Disallow: /js/
+Disallow: /css/
+
+# Allow images to be indexed
+Allow: /assets/*.jpg
+Allow: /assets/*.png
+
+# Sitemap location
+Sitemap: https://yoursite.com/sitemap.xml
+
+# Crawl-delay (optional - prevents aggressive crawling)
+Crawl-delay: 1
