@@ -1,0 +1,300 @@
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║         🎨 JONATHAN DAWSON (J15D) - PORTFOLIO READY 🎨        ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✅ CHANGES NOW LIVE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Commit: 8b9493a
+Status: Pushed to GitHub
+Live URL: https://elrookan15.github.io/ART-PORTFOLIO/
+
+
+YOUR PORTFOLIO NOW DISPLAYS:
+
+Navigation Logo:          J15D
+Page Title:               Jonathan Dawson | Abstract Expressionism...
+Meta Description:         Jonathan Dawson (J15D)...
+Footer:                   © 2026 Jonathan Dawson (J15D)
+Footer Link:              www.J15D.ART (orange highlighted)
+Certificate Artist:       Jonathan Dawson (J15D)
+Certificate Signature:    Signed with tag J15D
+SEO Files:               All updated to www.j15d.art
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎨 YOUR ARTIST IDENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Full Name:           Jonathan Dawson
+Signature Tag:       J15D
+Custom Domain:       www.J15D.ART
+Current Live Site:   https://elrookan15.github.io/ART-PORTFOLIO/
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 HOW J15D APPEARS ON YOUR ARTWORK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BACK OF CANVAS (recommended format):
+
+    ┌──────────────────────────────────┐
+    │                                  │
+    │   J15D                           │
+    │   Jonathan Dawson                │
+    │                                  │
+    │   "Void Constellation"           │
+    │   2026                           │
+    │   36 x 48 inches                 │
+    │   Acrylic on Canvas              │
+    │   Original                       │
+    │                                  │
+    │   www.J15D.ART                   │
+    │                                  │
+    └──────────────────────────────────┘
+
+Use permanent marker or paint pen
+All future certificates will reference "J15D" as your
+signature tag for authenticity verification.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🌐 NEXT STEP: CONNECT YOUR CUSTOM DOMAIN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You own: www.J15D.ART
+Goal: Make it show your portfolio
+
+⏱️ TIME REQUIRED: 15 minutes setup + 2-4 hours DNS wait
+
+
+STEP 1: LOG INTO YOUR DOMAIN REGISTRAR
+────────────────────────────────────────────────────────────
+
+Where did you buy J15D.ART?
+□ GoDaddy
+□ Namecheap
+□ Google Domains
+□ Cloudflare
+□ Other: _______________
+
+Log in to their website.
+
+
+STEP 2: FIND DNS SETTINGS
+────────────────────────────────────────────────────────────
+
+Look for one of these menu items:
+• "DNS Management"
+• "DNS Settings"
+• "DNS Records"
+• "Manage DNS"
+• "Advanced DNS"
+
+
+STEP 3: ADD DNS RECORDS
+────────────────────────────────────────────────────────────
+
+DELETE any existing A or CNAME records first (if any).
+
+ADD THESE 5 RECORDS:
+
+┌───────┬──────┬──────────────────────────┬──────┐
+│ Type  │ Name │ Value (Points To)        │ TTL  │
+├───────┼──────┼──────────────────────────┼──────┤
+│ A     │ @    │ 185.199.108.153          │ 3600 │
+│ A     │ @    │ 185.199.109.153          │ 3600 │
+│ A     │ @    │ 185.199.110.153          │ 3600 │
+│ A     │ @    │ 185.199.111.153          │ 3600 │
+│ CNAME │ www  │ elrookan15.github.io     │ 3600 │
+└───────┴──────┴──────────────────────────┴──────┘
+
+NOTES:
+• "Name" column: @ means root domain, www means subdomain
+• "Value" column: EXACT IP addresses (copy carefully!)
+• "TTL" column: 3600 is standard (1 hour)
+
+SAVE your changes!
+
+
+STEP 4: CONFIGURE GITHUB PAGES
+────────────────────────────────────────────────────────────
+
+1. Go to: https://github.com/elrookan15/ART-PORTFOLIO
+
+2. Click: Settings (top menu)
+
+3. Click: Pages (left sidebar)
+
+4. Under "Custom domain":
+   Type: www.j15d.art
+   Click: Save
+
+5. GitHub will verify DNS (takes 1-2 minutes)
+   You'll see: ✓ DNS check successful
+
+6. Check the box: ☑ Enforce HTTPS
+   (May be greyed out for 10-15 minutes - check back)
+
+
+STEP 5: WAIT FOR DNS PROPAGATION
+────────────────────────────────────────────────────────────
+
+DNS changes take time to spread across the internet.
+
+TYPICAL WAIT TIME: 2-4 hours
+MAXIMUM: 24-48 hours (rare)
+
+CHECK STATUS:
+Visit: https://www.whatsmydns.net/#CNAME/www.j15d.art
+
+You should see: elrookan15.github.io
+
+
+STEP 6: TEST YOUR SITE
+────────────────────────────────────────────────────────────
+
+Once DNS propagates, visit:
+
+🌐 https://www.j15d.art
+
+You should see your portfolio!
+
+VERIFY:
+□ Site loads correctly
+□ HTTPS padlock icon shows (secure)
+□ Navigation works
+□ Portfolio images load
+□ All features functional
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📚 DETAILED GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For step-by-step screenshots and troubleshooting:
+→ Open: CUSTOM-DOMAIN-SETUP.md
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 REMAINING OPTIONAL UPDATES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Once your custom domain is working, update these:
+
+1. INSTAGRAM HANDLE
+   Files: index.html, certificate-of-authenticity.html
+   Find: @yourhandle
+   Replace: Your actual Instagram username
+
+2. EMAIL ADDRESS  
+   Files: certificate-of-authenticity.html, EMAIL-TEMPLATES.txt
+   Find: your-email@domain.com
+   Replace: contact@j15d.art (or your preferred email)
+
+3. ARTIST PHOTO (Optional)
+   File location: assets/artist-photo.jpg
+   Recommended: 600x600px JPG
+   Shows in: About section of website
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 YOUR COMPLETE PORTFOLIO FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ 21 Original Artworks (integrated & titled)
+✅ 3 Series Collections (Interference Code, Neon Noir, 
+                         Full Spectrum Static)
+✅ Professional Artist Statement (authentic narrative)
+✅ Masonry Grid Layout (handles all aspect ratios)
+✅ Advanced Lightbox (deep zoom + pan functionality)
+✅ Password-Protected Viewing Room (default: collector2026)
+✅ Contact Form (validated, secure)
+✅ Newsletter Signup
+✅ Certificate of Authenticity (print-ready template)
+✅ Email Templates (3 types for collectors)
+✅ Mobile Responsive Design
+✅ SEO Optimized (meta tags, sitemap, robots.txt)
+✅ Custom Domain Ready (www.J15D.ART)
+✅ Artist Name: Jonathan Dawson
+✅ Signature Tag: J15D (on all certificates & artwork)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📂 KEY FILES FOR REFERENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PERSONALIZATION-COMPLETE.txt     - Full personalization summary
+CUSTOM-DOMAIN-SETUP.md            - Detailed domain setup guide
+ARTIST-STATEMENT-UPDATE.txt       - Artist statement & emails
+EMAIL-TEMPLATES.txt               - Collector email templates
+certificate-of-authenticity.html  - Printable COA template
+COA-GUIDE.txt                     - How to use certificates
+QUICK-REFERENCE.md                - Quick edits cheat sheet
+README.md                         - Technical documentation
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔥 STATUS SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMPLETE:
+✅ Portfolio website (fully functional)
+✅ Artist name personalization (Jonathan Dawson)
+✅ Signature tag integration (J15D)
+✅ Custom domain prep (www.J15D.ART)
+✅ Certificate templates (with J15D signature)
+✅ Email marketing templates
+✅ SEO optimization
+✅ All changes pushed to GitHub (LIVE)
+
+NEXT ACTIONS:
+⏳ Set up custom domain DNS (15 min)
+⏳ Add Instagram handle (2 min)
+⏳ Add email address (2 min)
+⏳ Add artist photo (optional)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💬 QUICK TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BRANDING CONSISTENCY:
+Use "J15D" everywhere:
+• Back of paintings (signature)
+• Instagram bio
+• Business cards
+• Email signature
+• Art show signage
+• Social media handles (if available)
+
+DOMAIN PROMOTION:
+Once www.j15d.art is live:
+• Add to Instagram bio
+• Include in email signature
+• Print on business cards
+• Add to certificates (already done!)
+• Share with collectors
+
+
+╔═══════════════════════════════════════════════════════════════╗
+║                                                               ║
+║  YOUR PORTFOLIO IS READY TO ATTRACT SERIOUS COLLECTORS!       ║
+║                                                               ║
+║  Live Now: https://elrookan15.github.io/ART-PORTFOLIO/        ║
+║  Soon:     https://www.j15d.art                               ║
+║                                                               ║
+║  Artist:   Jonathan Dawson (J15D)                             ║
+║                                                               ║
+╚═══════════════════════════════════════════════════════════════╝
+
+
+Need help with custom domain setup? Open: CUSTOM-DOMAIN-SETUP.md
+Questions about certificates? Open: COA-GUIDE.txt
+Want email templates? Open: EMAIL-TEMPLATES.txt
+
+🚀 Ready to launch? Start with DNS setup (15 minutes)!
