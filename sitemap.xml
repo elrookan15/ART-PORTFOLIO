@@ -3,7 +3,7 @@
   
   <!-- Homepage -->
   <url>
-    <loc>https://yoursite.com/</loc>
+    <loc>https://www.j15d.art/</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
   
   <!-- Portfolio Section -->
   <url>
-    <loc>https://yoursite.com/#portfolio</loc>
+    <loc>https://www.j15d.art/#portfolio</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -19,7 +19,7 @@
   
   <!-- Interference Code Series -->
   <url>
-    <loc>https://yoursite.com/#interference-code</loc>
+    <loc>https://www.j15d.art/#interference-code</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
   
   <!-- Neon Noir Series -->
   <url>
-    <loc>https://yoursite.com/#neon-noir</loc>
+    <loc>https://www.j15d.art/#neon-noir</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -35,7 +35,7 @@
   
   <!-- Full Spectrum Static Series -->
   <url>
-    <loc>https://yoursite.com/#full-spectrum-static</loc>
+    <loc>https://www.j15d.art/#full-spectrum-static</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -43,7 +43,7 @@
   
   <!-- The Studio -->
   <url>
-    <loc>https://yoursite.com/#studio</loc>
+    <loc>https://www.j15d.art/#studio</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -51,16 +51,16 @@
   
   <!-- Contact -->
   <url>
-    <loc>https://yoursite.com/#contact</loc>
+    <loc>https://www.j15d.art/#contact</loc>
     <lastmod>2026-02-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <!-- 
-    NOTE: Add individual artwork pages here if you create them in the future.
+    Artist: Jonathan Dawson (J15D)
+    Official Domain: www.J15D.ART
     Update the lastmod date whenever you add new works.
-    Replace "yoursite.com" with your actual domain.
   -->
 
 </urlset>

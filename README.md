@@ -1,6 +1,9 @@
-# ART PORTFOLIO - Production-Ready Website
+# Jonathan Dawson (J15D) - Art Portfolio
 
-A professional portfolio website for abstract expressionism artist, featuring visceral texture exploration, kinetic energy documentation, and immersive viewing experiences.
+A professional portfolio website for abstract expressionism artist Jonathan Dawson, featuring visceral texture exploration, kinetic energy documentation, and immersive viewing experiences.
+
+**Official Domain:** [www.J15D.ART](https://www.j15d.art)  
+**Artist Signature:** J15D
 
 ## 🎨 Features
 

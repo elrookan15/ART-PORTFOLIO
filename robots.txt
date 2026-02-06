@@ -10,7 +10,7 @@ Allow: /assets/*.jpg
 Allow: /assets/*.png
 
 # Sitemap location
-Sitemap: https://yoursite.com/sitemap.xml
+Sitemap: https://www.j15d.art/sitemap.xml
 
 # Crawl-delay (optional - prevents aggressive crawling)
 Crawl-delay: 1

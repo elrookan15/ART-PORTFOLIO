@@ -95,7 +95,8 @@ FRONT (Optional):
 BACK (Required):
 • Top left or center
 • Include:
-  - Your full name
+  - Your signature tag: J15D
+  - Full name: Jonathan Dawson
   - Artwork title
   - Year created
   - Dimensions
@@ -104,7 +105,8 @@ BACK (Required):
 
 EXAMPLE:
 ───────────────────────────────────────────────────────────
-[Your Name]
+J15D
+Jonathan Dawson
 "Void Constellation"
 2026
 36 x 48 inches
