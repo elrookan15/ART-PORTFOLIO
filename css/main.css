@@ -398,14 +398,9 @@ section {
    ============================================ */
 
 .about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-lg);
-    align-items: center;
-}
-
-.about-image img {
-    border: 1px solid rgba(224, 224, 224, 0.1);
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .about-content .section-title {
@@ -775,11 +770,6 @@ section {
     /* Masonry Grid */
     .masonry-grid {
         column-count: 1;
-    }
-    
-    /* About Grid */
-    .about-grid {
-        grid-template-columns: 1fr;
     }
     
     /* Contact Grid */
