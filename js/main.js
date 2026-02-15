@@ -260,7 +260,8 @@
                 { id: 5, title: 'Glitch Matrix', image: './assets/portfolio/interference-05.jpg', dimensions: '20x24"', medium: 'Acrylic on Canvas', year: 2025, description: 'Orange and blue geometric blocks with cryptic symbol marks and digital artifacts' },
                 { id: 13, title: 'Code Fragment', image: './assets/portfolio/interference-06.jpg', dimensions: '24x30"', medium: 'Acrylic on Canvas', year: 2026, description: 'Numeric sequences and geometric blocks emerging from layered digital substrate' },
                 { id: 14, title: 'Grid Collapse', image: './assets/portfolio/interference-07.jpg', dimensions: '24x30"', medium: 'Acrylic on Canvas', year: 2025, description: 'Earthy tones with systematic grid breakdown revealing deeper architectural layers' },
-                { id: 15, title: 'Metallic Drift', image: './assets/portfolio/interference-08.jpg', dimensions: '16x20"', medium: 'Acrylic on Canvas', year: 2026, description: 'Silver scraped surface with vibrant color disruptions and metallic texture' }
+                { id: 15, title: 'Metallic Drift', image: './assets/portfolio/interference-08.jpg', dimensions: '16x20"', medium: 'Acrylic on Canvas', year: 2026, description: 'Silver scraped surface with vibrant color disruptions and metallic texture' },
+                { id: 22, title: 'Blue Monolith', image: './assets/portfolio/blue-monolith.png', dimensions: '24x36"', medium: 'Acrylic on Canvas', year: 2026, description: 'Dynamic interplay of blues, blacks, and white—structural grids cutting through layered topography and organic splatters' }
             ],
             'neon-noir': [
                 { id: 6, title: 'Void Constellation', image: './assets/portfolio/neon-01.jpg', dimensions: '36x48"', medium: 'Acrylic on Canvas', year: 2026, description: 'Dark violet abyss punctured by explosive white splatter bursts forming a cosmic map' },
