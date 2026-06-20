@@ -250,7 +250,7 @@
         const masonryGrid = document.getElementById('masonryGrid');
         if (!masonryGrid) return;
 
-        // Your actual portfolio artwork data - 21 works
+        // Your actual portfolio artwork data - 23 works
         const portfolioData = {
             'interference-code': [
                 { id: 1, title: 'Frequency Drift', image: './assets/portfolio/interference-01.jpg', dimensions: '24x36"', medium: 'Acrylic on Canvas', year: 2026, description: 'Yellow and blue scraped geometries revealing structural decay and analog signal degradation' },
@@ -278,7 +278,8 @@
                 { id: 18, title: 'Chromatic Burst', image: './assets/portfolio/spectrum-05.jpg', dimensions: '24x24"', medium: 'Acrylic on Canvas', year: 2026, description: 'Square format with explosive all-over color density and white splatter trajectories' },
                 { id: 19, title: 'Dual Force', image: './assets/portfolio/spectrum-06.jpg', dimensions: '20x30"', medium: 'Acrylic on Canvas', year: 2026, description: 'Vertical diptych energy with contrasting dark and light atmospheric forces' },
                 { id: 20, title: 'Silver Rupture', image: './assets/portfolio/spectrum-07.jpg', dimensions: '16x16"', medium: 'Acrylic on Canvas', year: 2025, description: 'Metallic silver base ruptured by vibrant orange, green, and red color bursts' },
-                { id: 21, title: 'Luminous Descent', image: './assets/portfolio/spectrum-08.jpg', dimensions: '20x30"', medium: 'Acrylic on Canvas', year: 2026, description: 'Vertical gradient from luminous yellow to purple with drip patterns and textural depth' }
+                { id: 21, title: 'Luminous Descent', image: './assets/portfolio/spectrum-08.jpg', dimensions: '20x30"', medium: 'Acrylic on Canvas', year: 2026, description: 'Vertical gradient from luminous yellow to purple with drip patterns and textural depth' },
+                { id: 23, title: 'Opressed Solitude', image: './assets/portfolio/opressed-solitude.png', dimensions: 'Dimensions Available on Request', medium: 'Acrylic on Canvas', year: 2026, description: 'A densely layered field of muted reds, turquoise, black, and metallic earth tones, where fragmented blocks, scraped surfaces, and explosive marks suggest a private architecture of pressure, memory, and emotional containment.' }
             ]
         };
 
